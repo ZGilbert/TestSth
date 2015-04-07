@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58B1525D7BE4D70CBB79D9C5 /* libPods-TestSth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044C3377377ACFBE7F504D97 /* libPods-TestSth.a */; };
 		EDD0C1B81ACE760A00157648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0C1B71ACE760A00157648 /* main.m */; };
 		EDD0C1BB1ACE760A00157648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0C1BA1ACE760A00157648 /* AppDelegate.m */; };
 		EDD0C1BE1ACE760A00157648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0C1BD1ACE760A00157648 /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		EDD0C1C31ACE760A00157648 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD0C1C21ACE760A00157648 /* Images.xcassets */; };
 		EDD0C1C61ACE760A00157648 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD0C1C41ACE760A00157648 /* LaunchScreen.xib */; };
 		EDD0C1D21ACE760A00157648 /* TestSthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0C1D11ACE760A00157648 /* TestSthTests.m */; };
+		EDD0C1DC1ACE7FB000157648 /* Aspect-Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0C1DB1ACE7FB000157648 /* Aspect-Appearance.m */; };
+		EDD0C1DE1ACE811A00157648 /* Aspect-ViewDid.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0C1DD1ACE811A00157648 /* Aspect-ViewDid.m */; };
+		EDD0C1E51ACE8DBE00157648 /* TasdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0C1E31ACE8DBE00157648 /* TasdViewController.m */; };
+		EDD0C1E61ACE8DBE00157648 /* TasdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD0C1E41ACE8DBE00157648 /* TasdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044C3377377ACFBE7F504D97 /* libPods-TestSth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB07474F40E1E60F37E30857 /* Pods-TestSth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSth.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSth/Pods-TestSth.release.xcconfig"; sourceTree = "<group>"; };
 		EDD0C1B21ACE760A00157648 /* TestSth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD0C1B61ACE760A00157648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDD0C1B71ACE760A00157648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,12 @@
 		EDD0C1CB1ACE760A00157648 /* TestSthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD0C1D01ACE760A00157648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDD0C1D11ACE760A00157648 /* TestSthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSthTests.m; sourceTree = "<group>"; };
+		EDD0C1DB1ACE7FB000157648 /* Aspect-Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Aspect-Appearance.m"; path = "Aspect/Aspect-Appearance.m"; sourceTree = "<group>"; };
+		EDD0C1DD1ACE811A00157648 /* Aspect-ViewDid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Aspect-ViewDid.m"; path = "Aspect/Aspect-ViewDid.m"; sourceTree = "<group>"; };
+		EDD0C1E21ACE8DBE00157648 /* TasdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TasdViewController.h; path = Aspect/TasdViewController.h; sourceTree = "<group>"; };
+		EDD0C1E31ACE8DBE00157648 /* TasdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TasdViewController.m; path = Aspect/TasdViewController.m; sourceTree = "<group>"; };
+		EDD0C1E41ACE8DBE00157648 /* TasdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TasdViewController.xib; path = Aspect/TasdViewController.xib; sourceTree = "<group>"; };
+		F5F02994D19A4B3A55EDFD48 /* Pods-TestSth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSth/Pods-TestSth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B1525D7BE4D70CBB79D9C5 /* libPods-TestSth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +74,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		668D2125657A0E14AFFB8D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044C3377377ACFBE7F504D97 /* libPods-TestSth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8FDF11460B4BDDB0F32CECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5F02994D19A4B3A55EDFD48 /* Pods-TestSth.debug.xcconfig */,
+				BB07474F40E1E60F37E30857 /* Pods-TestSth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDD0C1A91ACE760A00157648 = {
 			isa = PBXGroup;
 			children = (
 				EDD0C1B41ACE760A00157648 /* TestSth */,
 				EDD0C1CE1ACE760A00157648 /* TestSthTests */,
 				EDD0C1B31ACE760A00157648 /* Products */,
+				B8FDF11460B4BDDB0F32CECB /* Pods */,
+				668D2125657A0E14AFFB8D6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +114,8 @@
 		EDD0C1B41ACE760A00157648 /* TestSth */ = {
 			isa = PBXGroup;
 			children = (
+				EDD0C1DB1ACE7FB000157648 /* Aspect-Appearance.m */,
+				EDD0C1DD1ACE811A00157648 /* Aspect-ViewDid.m */,
 				EDD0C1B91ACE760A00157648 /* AppDelegate.h */,
 				EDD0C1BA1ACE760A00157648 /* AppDelegate.m */,
 				EDD0C1BC1ACE760A00157648 /* ViewController.h */,
@@ -89,6 +124,9 @@
 				EDD0C1C21ACE760A00157648 /* Images.xcassets */,
 				EDD0C1C41ACE760A00157648 /* LaunchScreen.xib */,
 				EDD0C1B51ACE760A00157648 /* Supporting Files */,
+				EDD0C1E21ACE8DBE00157648 /* TasdViewController.h */,
+				EDD0C1E31ACE8DBE00157648 /* TasdViewController.m */,
+				EDD0C1E41ACE8DBE00157648 /* TasdViewController.xib */,
 			);
 			path = TestSth;
 			sourceTree = "<group>";
@@ -126,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDD0C1D51ACE760A00157648 /* Build configuration list for PBXNativeTarget "TestSth" */;
 			buildPhases = (
+				B35C3378B434F79C78A7A579 /* Check Pods Manifest.lock */,
 				EDD0C1AE1ACE760A00157648 /* Sources */,
 				EDD0C1AF1ACE760A00157648 /* Frameworks */,
 				EDD0C1B01ACE760A00157648 /* Resources */,
+				25B8097FCC3EFBA159ED9BFC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +241,7 @@
 			files = (
 				EDD0C1C11ACE760A00157648 /* Main.storyboard in Resources */,
 				EDD0C1C61ACE760A00157648 /* LaunchScreen.xib in Resources */,
+				EDD0C1E61ACE8DBE00157648 /* TasdViewController.xib in Resources */,
 				EDD0C1C31ACE760A00157648 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +255,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25B8097FCC3EFBA159ED9BFC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSth/Pods-TestSth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35C3378B434F79C78A7A579 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDD0C1AE1ACE760A00157648 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD0C1E51ACE8DBE00157648 /* TasdViewController.m in Sources */,
+				EDD0C1DE1ACE811A00157648 /* Aspect-ViewDid.m in Sources */,
 				EDD0C1BE1ACE760A00157648 /* ViewController.m in Sources */,
 				EDD0C1BB1ACE760A00157648 /* AppDelegate.m in Sources */,
 				EDD0C1B81ACE760A00157648 /* main.m in Sources */,
+				EDD0C1DC1ACE7FB000157648 /* Aspect-Appearance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +420,7 @@
 		};
 		EDD0C1D61ACE760A00157648 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F02994D19A4B3A55EDFD48 /* Pods-TestSth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestSth/Info.plist;
@@ -353,6 +431,7 @@
 		};
 		EDD0C1D71ACE760A00157648 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB07474F40E1E60F37E30857 /* Pods-TestSth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestSth/Info.plist;
@@ -414,6 +493,7 @@
 				EDD0C1D71ACE760A00157648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDD0C1D81ACE760A00157648 /* Build configuration list for PBXNativeTarget "TestSthTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +502,7 @@
 				EDD0C1DA1ACE760A00157648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
